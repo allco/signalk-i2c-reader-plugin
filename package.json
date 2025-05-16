@@ -1,0 +1,20 @@
+{
+  "name": "i2c-reader",
+  "version": "1.0.0",
+  "description": "I2C Reader a SignalK plugin",
+  "keywords": [
+    "signalk-node-server-plugin"
+  ],
+  "signalk": {
+    "displayName": "I2C Reader"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alsk",
+  "license": "ISC",
+  "dependencies": {
+    "i2c-bus": "^5.2.2"
+  }
+}
