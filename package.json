@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "I2C Reader a SignalK plugin",
   "keywords": [
-    "signalk-node-server-plugin"
+    "signalk-node-server-plugin",
+    "signalk-category-hardware"
   ],
   "signalk": {
     "displayName": "I2C Reader"
