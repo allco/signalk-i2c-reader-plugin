@@ -17,5 +17,6 @@
   "license": "ISC",
   "dependencies": {
     "i2c-bus": "^5.2.2"
-  }
+  },
+  "repository": "git+https://github.com:allco/signalk-i2c-reader-plugin.git"
 }
