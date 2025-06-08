@@ -6,8 +6,8 @@ const converterSchema = {
     require: ['a', 'b'],
     description: '`a` and `b` for equation: `a*X + b`. E.g. `a=1` and `b=273.15` for Celsius to Kelvin conversion',
     properties: {
-        a: { type: 'number', title: 'a', default: 1 },
-        b: { type: 'number', title: 'b', default: 0 }
+        a: {type: 'number', title: 'a', default: 1},
+        b: {type: 'number', title: 'b', default: 0}
     }
 };
 
