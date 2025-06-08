@@ -46,7 +46,7 @@ module.exports = function (app) {
                     const adjustedValue = convertValue(originalValue, device);
                     logDebug(`Device read, name: ${device.name}, value: ${adjustedValue}`);
                     updateSignalK(app, device, adjustedValue);
-                    status += `${device.name}: ${adjustedValue}${device.signalk.units} (original: ${originalValue}), `;
+                    status += `${device.name}: ${adjustedValue}(${originalValue})${device.signalk.units}, `;
                 });
 
                 app.setPluginStatus(status);
