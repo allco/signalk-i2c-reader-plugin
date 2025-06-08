@@ -1,6 +1,6 @@
 {
   "name": "i2c-reader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "I2C Reader a SignalK plugin",
   "keywords": [
     "signalk-node-server-plugin",
